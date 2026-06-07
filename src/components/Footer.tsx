@@ -80,7 +80,7 @@ export default function Footer() {
           text: (
             <div className="space-y-4 text-xs sm:text-sm text-slate-600 leading-relaxed">
               <p className="font-semibold text-slate-800">1. Clean 15-Day Inspection window</p>
-              <p>We pride ourselves on the peerless craftsmanship of Sanskritii Weaves. If you are not absolutely pleased with the texture, weight, or fit of the garment, you may request a return within 15 calendar days from the date of package delivery.</p>
+              <p>We pride ourselves on the peerless craftsmanship of Sanskritii. If you are not absolutely pleased with the texture, weight, or fit of the garment, you may request a return within 15 calendar days from the date of package delivery.</p>
 
               <p className="font-semibold text-slate-800">2. Condition Required for Return</p>
               <p>To qualify for an immediate, hassle-free adjustment, returned products must remain in their original unworn state with all designer tags and authentication labels intact. It should not be washed or altered.</p>
@@ -117,13 +117,13 @@ export default function Footer() {
           text: (
             <div className="space-y-4 text-xs sm:text-sm text-slate-600 leading-relaxed">
               <p className="font-semibold text-slate-800">1. Artisanal Marketplace Scope</p>
-              <p>Sanskritii Weaves functions as an exclusive, closed-loop hub connecting verified premium independent Indian weavers with traditional attire connoisseurs. By interacting with the site, buying, or listing items, you agree to these clear operational terms.</p>
+              <p>Sanskritii functions as an exclusive, closed-loop hub connecting verified premium independent Indian weavers with traditional attire connoisseurs. By interacting with the site, buying, or listing items, you agree to these clear operational terms.</p>
 
               <p className="font-semibold text-slate-800">2. Accurate Product Pricing & Catalog Information</p>
               <p>All catalog elements are displayed in Indian Rupees (₹) including all relevant transactional taxes. Artisan listings contain genuine, high-definition photography representing original physical wares. Slight variations in clay pottery glaze, oak grain lines, or weave threads are natural signs of artisanal luxury.</p>
 
               <p className="font-semibold text-slate-800">3. Proprietary Material Protection</p>
-              <p>Design imagery, copy, clothing motifs, and our brand logo elements are sole trademarks of Sanskritii Weaves. Unauthorized commercial reproduction of listed wares is strictly prohibited.</p>
+              <p>Design imagery, copy, clothing motifs, and our brand logo elements are sole trademarks of Sanskritii. Unauthorized commercial reproduction of listed wares is strictly prohibited.</p>
             </div>
           )
         };
@@ -143,19 +143,26 @@ export default function Footer() {
           
           {/* Brand Info (5 cols) */}
           <div className="md:col-span-5 space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-maroon-700 text-gold-400 border border-gold-500/30 flex items-center justify-center font-display font-bold text-base shadow-lg select-none">
-                S
-              </div>
-              <span className="text-lg font-bold tracking-tight text-white font-display">
-                Sanskritii Weaves
+            <div className="flex items-center gap-2.5">
+              {/* Custom crafted royal golden lotus logo emblem representing traditional luxury */}
+              <svg className="w-9 h-9 text-gold-500 drop-shadow-md select-none transform hover:rotate-6 transition duration-300" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="44" fill="#801b22" stroke="#d4af37" strokeWidth="3" />
+                <circle cx="50" cy="50" r="39" stroke="#d4af37" strokeWidth="1" strokeDasharray="3 3" opacity="0.6" />
+                <path d="M50 16 C43 32 25 45 50 84 C75 45 57 32 50 16 Z" fill="#d4af37" opacity="0.95" />
+                <path d="M50 25 C35 38 10 52 50 82 C90 52 65 38 50 25 Z" fill="#b89122" opacity="0.75" />
+                <path d="M50 34 C42 45 25 55 50 76 C75 55 58 45 50 34 Z" fill="#96252d" />
+                <circle cx="50" cy="55" r="5" fill="#facc15" />
+                <circle cx="50" cy="55" r="2" fill="#faf1f2" />
+              </svg>
+              <span className="text-xl font-bold tracking-tight text-white font-display">
+                Sanskritii
               </span>
             </div>
             <p className="text-xs text-slate-400 font-sans leading-relaxed max-w-sm">
               Heritage-grade traditional Indian handloom dhotis, raw silk kurtas, double Kasavu mundus, and divine festival wear. Woven with organic threads directly by master craftsmen across historical Indian weaving hubs.
             </p>
             <div className="pt-2 text-xs text-maroon-400/60 font-mono">
-              © 2026 Sanskritii Weaves Private Limited. Delhi / Mumbai / Varanasi.
+              © 2026 Sanskritii Private Limited. Delhi / Mumbai / Varanasi.
             </div>
           </div>
 

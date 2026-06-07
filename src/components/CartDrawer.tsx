@@ -131,16 +131,16 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
             </div>
             <h3 className="text-2xl font-bold text-slate-900 font-display">Purchase Successful</h3>
             <p className="text-sm text-slate-500 max-w-xs">
-              Thank you for supporting Sanskritii Weaves! Your order has been placed successfully and dispatched to our handloom curators.
+              Thank you for supporting Sanskritii! Your order has been placed successfully and dispatched to our handloom curators.
             </p>
             <button
               onClick={() => {
                 setShowSuccess(false);
                 onClose();
               }}
-              className="mt-6 bg-slate-900 text-white font-medium px-6 py-2.5 rounded-xl hover:bg-slate-800 transition shadow-sm w-full"
+              className="mt-6 bg-maroon-700 text-white font-medium px-6 py-2.5 rounded-xl hover:bg-maroon-800 transition shadow-sm w-full cursor-pointer"
             >
-              Back to Weaves Store
+              Back to Sanskritii Store
             </button>
           </div>
         ) : cart.length === 0 ? (

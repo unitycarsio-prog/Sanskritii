@@ -26,11 +26,20 @@ export default function Header({ onOpenWishlist, onOpenCart, onOpenProfile, view
         {/* Logo and Brand */}
         <div className="flex items-center justify-between w-full md:w-auto">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-maroon-700 text-gold-400 border border-gold-500/30 flex items-center justify-center font-display font-bold text-base shadow-md select-none">
-              S
-            </div>
-            <h1 className="text-xl font-display font-bold tracking-tight text-maroon-900">
-              Sanskritii Weaves
+            {/* Custom crafted royal golden lotus logo emblem representing traditional luxury */}
+            <svg className="w-9 h-9 text-gold-500 drop-shadow-md select-none transform hover:rotate-6 transition duration-300" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="50" cy="50" r="44" fill="#801b22" stroke="#d4af37" strokeWidth="3" />
+              <circle cx="50" cy="50" r="39" stroke="#d4af37" strokeWidth="1" strokeDasharray="3 3" opacity="0.6" />
+              {/* Core traditional Kundalini/Lotus flower design */}
+              <path d="M50 16 C43 32 25 45 50 84 C75 45 57 32 50 16 Z" fill="#d4af37" opacity="0.95" />
+              <path d="M50 25 C35 38 10 52 50 82 C90 52 65 38 50 25 Z" fill="#b89122" opacity="0.75" />
+              <path d="M50 34 C42 45 25 55 50 76 C75 55 58 45 50 34 Z" fill="#96252d" />
+              {/* Sacred center seed element */}
+              <circle cx="50" cy="55" r="5" fill="#facc15" />
+              <circle cx="50" cy="55" r="2" fill="#faf1f2" />
+            </svg>
+            <h1 className="text-2xl font-display font-medium tracking-tight text-maroon-900">
+              Sanskritii
             </h1>
           </div>
 
