@@ -1,0 +1,6 @@
+{
+  "name": "Sanskritii Weaves",
+  "description": "An exquisite premium digital mercantile for hand-woven Indian traditional dhotis, organic cotton mundus, tussar silk kurtas, and heritage handloom attire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
