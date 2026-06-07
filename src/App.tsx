@@ -5,6 +5,7 @@ import WishlistModal from './components/WishlistModal';
 import CartDrawer from './components/CartDrawer';
 import OrderHistoryDrawer from './components/OrderHistoryDrawer';
 import SellerDashboard from './components/SellerDashboard';
+import AuthModal from './components/AuthModal';
 import Footer from './components/Footer';
 import { AuthProvider } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
@@ -63,6 +64,9 @@ export default function App() {
                 isOpen={isProfileOpen} 
                 onClose={() => setIsProfileOpen(false)} 
               />
+
+              {/* Dedicated Custom Swadeshi Credentials Sign In / Sign Up Modal */}
+              <AuthModal />
             </div>
           </WishlistProvider>
         </SearchProvider>

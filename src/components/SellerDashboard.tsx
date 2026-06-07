@@ -145,14 +145,14 @@ export default function SellerDashboard({ onSwitchToBuyer }: SellerDashboardProp
         </div>
         <h2 className="text-2xl font-bold tracking-tight text-maroon-950 mb-2 font-display">Artisan Seller Center</h2>
         <p className="text-sm text-slate-500 mb-8 max-w-sm mx-auto">
-          Sign in with your Google account to list handloom items, update organic thread details, and track your store statistics.
+          Sign in with your Sanskritii credentials or register a free unique ID to list handloom items, update organic thread details, and track your store statistics.
         </p>
         <button
           onClick={loginWithGoogle}
           className="w-full bg-maroon-700 text-gold-50 font-medium py-3 rounded-xl hover:bg-maroon-800 transition active:scale-98 shadow-md flex items-center justify-center gap-2 cursor-pointer border border-gold-500/20"
         >
           <Compass size={18} />
-          Sign in to Artisan Account
+          Sign in / Register Account
         </button>
         <button 
           onClick={onSwitchToBuyer}

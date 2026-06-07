@@ -106,7 +106,7 @@ export default function Footer() {
               <p>To safely deliver your handcrafted dhotis, kurtas, or fine silk sarees, we record minimal operational indicators: receiver name, delivery address, communication email address, and order history notes. We never monetize, lend, or syndicate this data to third-party advertisers.</p>
 
               <p className="font-semibold text-slate-800">3. Firebase Firestore Security</p>
-              <p>Our app writes customer baskets, wishlists, and user profiles directly to sandboxed Google Cloud Firestore instances, strictly authenticated via Google Auth protocols so only authenticated accounts can view private histories.</p>
+              <p>Our app writes customer baskets, wishlists, and user profiles directly to sandboxed Google Cloud Firestore instances, strictly validated via Sanskritii secure credential protocols so only authenticated accounts can view private histories.</p>
             </div>
           )
         };
